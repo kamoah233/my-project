@@ -89,10 +89,13 @@ const Navbar = () => {
                     offset={-100}
                     duration={500}
                     onClick={()=>setNavbar(!navbar)}
+                    style={{ margin: "0px 10px"}}
+                    
                     >{item.label}</Link>
                 )
 })}
-        {currentTheme === "dark" ? (
+{/* dark mode button */}
+        {currentTheme === "Dark" ? (
             <button onClick={()=>setTheme("Light")} 
             className="bg-slate-100 p-2 rounded-xl">
                 <RiSunLine  size={25} color="black"/>
@@ -102,7 +105,8 @@ const Navbar = () => {
              className="bg-slate-100 p-2 rounded-xl">
                 <RiMoonFill  size={25} />
             </button>
-        )}
+        )
+        }
         
         </div>
         </div>
@@ -112,3 +116,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+//q: how do I make the home , about, projects areas on the navbar aligned on the same line?
+//a:
