@@ -9,8 +9,8 @@ const projects = [
         title: 'Portfolio Website',
         description: 'My personal portfolio website built with Next.js, Tailwind CSS, and TypeScript.',
         image: '/portfolio.png',
-        gitHub: '',
-        link: ''
+        gitHub: 'https://github.com/kamoah233/my-project',
+        link: 'https://kofiamoah.vercel.app/'
     },
     {
         title: 'Schedule Puzzle',
@@ -23,13 +23,13 @@ const projects = [
         title: 'Dining Chatbot',
         description: 'a dining chatbot application built  with Python and Flask',
         image: '',
-        gitHub: ''
+        gitHub: 'https://github.com/kamoah233/DiningChatBot'
     },
     {
         title: 'Currency Converter',
         description: 'a currency converter application built with Python and the CurrencyAPI',
         image: '',
-        gitHub: ''
+        gitHub: 'https://github.com/kamoah233/PYTHON-AUTOMATION/blob/main/currency.py'
     }
 ]
 
