@@ -4,6 +4,7 @@ import { Link } from "react-scroll/modules"
 import { useTheme } from 'next-themes'
 import { RiMoonFill, RiSunFill, RiSunLine } from "react-icons/ri"
 import {IoMdMenu, IoMdClose} from "react-icons/io"
+/* import { useTheme} */
 
 interface NavItem {
     label:string
@@ -23,10 +24,10 @@ const NAV_ITEMS: Array<NavItem> = [
         label: "Projects",
         page: "projects"
     },
-    {
+    /* {
         label: "Contact",
         page: "contact"
-    },
+    }, */
 ]
 
 const Navbar = () => {
@@ -42,6 +43,7 @@ const Navbar = () => {
 
         <div>
             <div className="flex items-center justify-between py-3">
+                <Link to="home"></Link>
             <div className="md:py-5 md:block">
                 <h2 className="text-2xl font-bold">Kofi Amoah</h2>
             </div>
@@ -54,6 +56,7 @@ const Navbar = () => {
         </div>
         <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
             navbar ? "block" : "hidden"}`}>
+
         
         {/* <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
         {NAV_ITEMS.map((item, idx) => {
