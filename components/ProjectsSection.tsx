@@ -49,13 +49,17 @@ const ProjectsSection = () => {
                     <div className='flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-10'></div>
                     <div className='mt-8 md:w-1/2'>
                     {project.gitHub && (
-                        <Link href={project.link} target="_blank">
+                        <Link href={project.gitHub} target="_blank">
                         <Image src={project.image}
                          alt='' 
                          width={500} 
                          height={500}
                          className='rounded-xl shadow-xl hover:opacity-70'/></Link>
                          )}
+                         {project.link && (
+                     <Link href={project.link} target="_blank">
+                     </Link>
+                            )}
                     <div className="mt-12 md:w-1/2">
                         <h1 className='text-center text-2xl font-bold mb-6 md:text-left'></h1>
                             <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral'>{project.description} 
