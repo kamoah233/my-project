@@ -30,7 +30,7 @@ if (ref.current) {
 
 return (
     <div ref={ref} className="relative opacity-0">
-        {children}"
+        {children}
     </div>
 )
 }
