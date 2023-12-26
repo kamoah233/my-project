@@ -28,7 +28,7 @@ const projects = [
     {
         title: 'Currency Converter',
         description: 'a currency converter application built with Python and the CurrencyAPI',
-        image: '',
+        image: '/currency-converter.png',
         gitHub: 'https://github.com/kamoah233/PYTHON-AUTOMATION/blob/main/currency.py'
     }
 ]

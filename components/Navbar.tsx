@@ -95,13 +95,14 @@ const Navbar = () => {
                 )
 })}
 {/* dark mode button */}
-        {currentTheme === "Dark" ? (
-            <button onClick={()=>setTheme("Light")} 
-            className="bg-slate-100 p-2 rounded-xl">
+        {currentTheme === "dark" ? (
+            // <button onClick={()=>setTheme("Light")} 
+            <button onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
+            className="bg-slate-100 p-2 rounded-xl ml-4">
                 <RiSunLine  size={25} color="black"/>
             </button >
         ): (
-            <button onClick={()=>setTheme("Dark")}
+            <button onClick={()=>setTheme("dark")}
              className="bg-slate-100 p-2 rounded-xl">
                 <RiMoonFill  size={25} />
             </button>
