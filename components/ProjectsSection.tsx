@@ -20,17 +20,18 @@ const projects = [
         link: ''
     },
     {
+        title: 'Currency Converter',
+        description: 'a currency converter application built with Python and the CurrencyAPI',
+        image: '/currency-converter.png',
+        gitHub: 'https://github.com/kamoah233/PYTHON-AUTOMATION/blob/main/currency.py'
+    },
+    {
         title: 'Dining Chatbot',
         description: 'a dining chatbot application built  with Python and Flask',
         image: '',
         gitHub: 'https://github.com/kamoah233/DiningChatBot'
     },
-    {
-        title: 'Currency Converter',
-        description: 'a currency converter application built with Python and the CurrencyAPI',
-        image: '/currency-converter.png',
-        gitHub: 'https://github.com/kamoah233/PYTHON-AUTOMATION/blob/main/currency.py'
-    }
+
 ]
 
 const ProjectsSection = () => {
