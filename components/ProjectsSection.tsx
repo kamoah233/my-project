@@ -28,7 +28,7 @@ const projects = [
     {
         title: 'Dining Chatbot',
         description: 'a dining chatbot application built  with Python and Flask',
-        image: '',
+        image: '/dining_chatbot.png',
         gitHub: 'https://github.com/kamoah233/DiningChatBot'
     },
 
